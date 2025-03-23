@@ -8,7 +8,7 @@
     3. Detects fake sensors or missing components.
     4. Checks for pre-installed root access (common in fake/cloned phones).
 
-# Steps to Use:
+## Steps to Use:
 
     1. Enable USB Debugging on your Android device.
     2. Install ADB on your PC (if not installed).
@@ -24,14 +24,14 @@ sudo apt install adb
     3. Connect your phone via USB and allow debugging.
     4. Run the script on your PC. check_android_hardware.sh (Linux/macOS) or check_android_hardware.bat (Windows).
 
-# Linux/MacOS
+## Linux/MacOS
 
 ```sh 
 chmod +x check_android_hardware.sh
 ./check_android_hardware.sh
 ```
 
-# Expected Results (Example)
+## Expected Results (Example)
 
 On a real Android phone, output might look like:
 
@@ -47,7 +47,7 @@ On a real Android phone, output might look like:
     Available Sensors: Proximity, Gyroscope, Accelerometer
     Checking Root Access: No root access detected.
 
-# Red Flags (If Fake Phone)
+## Red Flags (If Fake Phone)
 
     CPU shows "MT6580" but the phone claims to have a Snapdragon 888 (fake).
     GPU info missing or shows "unknown" (fake software overlay).
