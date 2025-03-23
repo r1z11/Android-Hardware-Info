@@ -49,8 +49,8 @@ On a real Android phone, output might look like:
 
 ## Red Flags (If Fake Phone)
 
-    CPU shows "MT6580" but the phone claims to have a Snapdragon 888 (fake).
-    GPU info missing or shows "unknown" (fake software overlay).
-    RAM shows "2048 MB" but the phone claims to have 8GB RAM.
-    IMEI is missing or mismatched with the phone’s sticker/box.
-    Sensors missing (Fake phones lack a gyroscope or accelerometer).
+    1. CPU shows "MT6580" but the phone claims to have a Snapdragon 888 (fake).
+    2. GPU info missing or shows "unknown" (fake software overlay).
+    3. RAM shows "2048 MB" but the phone claims to have 8GB RAM.
+    4. IMEI is missing or mismatched with the phone’s sticker/box.
+    5. Sensors missing (Fake phones lack a gyroscope or accelerometer).
