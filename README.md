@@ -13,13 +13,13 @@
     1. Enable USB Debugging on your Android device.
     2. Install ADB on your PC (if not installed).
         Windows: Download from here. https://developer.android.com/tools/adb
-        macOS/Linux: Install via terminal using
+        macOS/Linux: Install via terminal using (macOS) 
 ```sh 
-brew install android-platform-tools (macOS) 
+brew install android-platform-tools
 ```
-        or
+or (Linux).
 ```sh
-sudo apt install adb (Linux).
+sudo apt install adb
 ```
     3. Connect your phone via USB and allow debugging.
     4. Run the script on your PC. check_android_hardware.sh (Linux/macOS) or check_android_hardware.bat (Windows).
