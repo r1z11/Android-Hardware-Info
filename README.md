@@ -1,7 +1,7 @@
 # Android Hardware Info
  Bypass spoofed android hardware information and get true values
 
-# What This Script Does:
+## What This Script Does:
 
     1. Extracts real CPU, GPU, RAM, storage, and IMEI details.
     2. Bypasses software spoofed model names using /proc and adb shell.
